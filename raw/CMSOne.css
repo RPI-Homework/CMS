@@ -1,0 +1,270 @@
+	/*** Global Settings ****/
+body {
+	font : normal 12px/1.6em Arial, Helvetica, sans-serif;
+	color : #000000;
+	margin : 0;
+	padding : 0;
+	background:#FFFFFF;
+}
+
+p { 
+	margin : 0;
+	padding : 0;
+}
+
+a:visited, a:link {color : #a43b55;text-decoration : underline;background:none;}
+
+a:hover {
+	color : #054B65;
+	text-decoration : none;
+	background:none;
+}
+
+h1 {color : #28517B;margin : 25px 0 00px;padding-bottom : 10px;font : normal 17px Arial, serif;}
+
+h2 {color : #FF7E00;margin : 25px 0 00px;padding-bottom : 10px;font : normal 17px Arial, serif;}
+
+h3 {color : #FF7E00;margin : 5px 0;padding-bottom : 0px;font : bold 12px Arial, Helvetica, sans-serif;}
+
+h4 {
+	color : #000000;
+	font : 10px Arial, Helvetica, sans-serif;
+}
+
+h5 {margin : 5px 0;padding-bottom : 0px;font : bold 9px Arial, Helvetica, sans-serif;}
+
+ul {
+	padding:0;
+	list-style-type:square; 
+	margin-left:15px; 
+	margin-right:0; 
+	margin-top:0; 
+	margin-bottom:0}
+
+
+	/***Header Styles***/
+
+.style1 {
+	color: #054B65;
+	font-size: 36px;
+}
+.style2 {color: #FF7E00}
+.style3 {color: #333333}
+.style4 {color: #271C8D}
+
+
+
+
+
+
+
+	/*** Layout ****/
+
+#wrapper {
+	margin : 0 auto;
+	width : 850px;
+	float : center;
+	}
+
+#iefix 	{
+	width : 250px;
+	float : left;
+	}
+
+#gapfix 	{
+	height : 0px;
+	
+	}
+
+#header {margin : 0 1px;}
+
+#bg {
+	height : 36px;
+	background : url('') repeat-x;}
+
+#primary {
+
+	margin : 0 auto;
+	width : 850px;
+	border-left : 1px solid #f0e9eb;
+	border-right : 1px solid #f0e9eb;
+	float : center;
+}
+
+
+#primarynav {
+
+	background : #FFFFFF;
+	padding : 10px 10px;
+	text-align : bottom, right;
+	color : #FF7E00;
+}
+
+#primarytitle {
+
+	background : #FFFFFF;
+	padding : 10px 15px;
+	float : left;
+	text-align : bottom, left;
+	color : #FF7E00;
+}
+
+#nav {
+	background : #FF6600;
+	padding : 5px 20px;
+	text-align : left;
+	color : #271C8D;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration : none;
+	color : #FF7E00;
+}
+
+#nav a:hover {
+	text-decoration : underline;
+	color : #FFFFFF;
+}
+
+#main-content {margin : 0 auto;}
+
+#logo {margin-bottom : 45px;}
+.logotext1 {
+	font : normal 30px Century Gothic, Arial, Helvetica;
+	color : #271C8D;
+}
+.logotext2 {
+	font : normal 30px Century Gothic, Arial, Helvetica;
+	color : #FFFFFF;
+}
+
+.main-text {
+	color : #FF7E00;
+	font : bold 12px Arial, Helvetica, sans-serif;
+}
+
+.header-text {
+	color : #FF7E00;
+	font : bold 16px Arial, Helvetica, sans-serif;
+}
+
+
+body { 
+	background-image: url(	/*** you can place a background image here ***/	); 
+	background-color: #ffffff;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+
+	/*** this regulates the main body of content, you can adjust its width, position on the page and various colour options. ***/
+#main-column {
+	width : 554px;
+	padding : 10px 20px 20px;
+	float : right;
+	border : 1px solid #D7D7D7;
+	margin-top: 10;
+	margin-bottom: 10;
+	background-color: #EBEBEB;
+}
+
+
+
+
+
+
+
+	/*** this regulates the left hand column that contains the user boxes ***/
+#menu-column {
+	width : 225px;
+	float : left;
+}
+
+.crd a:visited, .crd a:link, .crd a:hover{text-decoration : none;color : #2a3845;cursor: text;}
+
+	/***Feature Boxes***/ 
+
+.boxone {
+	background : #D6D3D3;
+	border : 1px solid #28517B;
+	margin-bottom: 10;
+	padding : 10px;
+	text-align : middle, center;
+	color : #000000;
+}
+.boxtwo {
+	background : #FFF9BD;
+	border : 1px solid #FF7818;
+	margin-bottom: 10;
+	padding : 15px;
+}
+
+
+	/*** user bar [profile/inbox/help/log out] ***/
+.userbar {
+	color: #271C8D;
+	text-align : middle, center;
+}
+
+
+	/*** user statistics box [friends/inbox/images etc...]***/
+.username {
+	color: #271C8D;
+	font-size: 16px;
+}
+.userstats {
+	color: #000000;
+	font-size: 10px;
+}
+.bantext {
+	color: #000000;
+	font-size: 8px;
+}
+
+	/*** X number of latest news articles ***/
+.postsdate {
+	color: #FF6600;
+	font-size: 8px;
+}
+.postsuser {
+	color: #534A9F;
+	font-size: 8px;
+}
+.poststitle {
+	color: #534A9F;
+	font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+	background : ;
+	border-top : 1px solid #f0e9eb;
+	padding : 5px 10px;
+	clear : both; 
+	color: #ffffff; 
+	font: normal 1px;}
+}
+
+
+
+
+	/*** SideBAR ***/
+
+#main-image {text-align : center;}
+
+.sidebar {
+	width : 210px;
+	margin : 0 auto;
+	background : url('images/shadow.jpg') no-repeat top;; 
+	padding-left:15px; 
+	padding-right:15px; 
+	padding-top:10px; 
+	padding-bottom:10px}
+

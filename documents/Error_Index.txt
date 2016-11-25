@@ -1,0 +1,237 @@
+~Installation Errors~
+~Suggested Action: Reinstall~
+Error Code 0: Bad SQL Database name, SQL username, or SQL password supplied.		-conf_global.php
+Error Code 00: Bad SQL database address, SQL username, SQL password supplied, and/or SQL database name supplied.
+
+~000s, 100s (Non-Fatal Submit Errors)~
+~Suggested Action: No Action~
+Error Code 1: Please enter a username.							-admin/login.php
+Error Code 2: Please enter a password.
+Error Code 3: The username entered is incorrect.
+Error Code 4: The password entered is incorrect.
+Error Code 5: Unknown error.
+Error Code 6: A site name is required.							-admin/general.php
+Error Code 7: The default member group cannot be an Administrator or a Staff Member.
+Error Code 8: All fields must be filled.
+Error Code 9: Guest Articles must be 1 or 0.
+Error Code 10: No link name entered.							-admin/links.php
+Error Code 11: No link name entered.
+Error Code 12: No category ID entered.
+Error Code 13: Category does not exist.
+Error Code 14: No category name entered.
+Error Code 15: No category name entered.
+Error Code 16: Link ID does not exist.
+Error Code 17: No link name entered.
+Error Code 18: No category ID entered.
+Error Code 19: Category does not exist.
+Error Code 20: Category ID does not exist.
+Error Code 21: No category name entered.
+Error Code 22: Link ID does not exist.
+Error Code 23: Category ID does not exist.
+Error Code 24: That category does not exist.
+Error Code 25: No username entered.							-admin/admins/index.php
+Error Code 26: No usernames contains [Username].
+Error Code 27: No user ID.								-admin/admins/edit.php
+Error Code 28: User ID does not exist.
+Error Code 29: You cannot edit Root Administrators.
+Error Code 30: You cannot edit Yourself.
+Error Code 31: Unknown Error.
+Error Code 32: You cannot edit Root Administrators.
+Error Code 33: You cannot edit Yourself.
+Error Code 34: You cannot create Root Administrators.
+Error Code 35: Unknown Error.
+Error Code 36: No article name entered.							-admin/art/add.php
+Error Code 37: No author name entered.
+Error Code 38: No article text entered.
+Error Code 39: A URL must be provided to use guest redirection.
+Error Code 40: No category name entered.						-admin/art/cat.php
+Error Code 41: No category name entered.
+Error Code 42: Category ID does not exist.
+Error Code 43: No category name entered.
+Error Code 44: Category ID does not exist.
+Error Code 45: No article name entered.							-admin/art/del.php
+Error Code 46: No article names contains [Article Name].
+Error Code 47: No author name entered.
+Error Code 48: No article made by author [Author Name].
+Error Code 49: No editor name entered.
+Error Code 50: No articles were edited by [Editor Name].
+Error Code 51: Invalid category ID.
+Error Code 52: Invalid category ID.
+Error Code 53: No articles in category [Category Name].
+Error Code 54: No articles text enetered.
+Error Code 55: No articles contain that text.
+Error Code 56: No articles.
+Error Code 57: No article ID.								-admin/art/edit.php
+Error Code 58: Article ID does not exist.
+Error Code 59: No article name entered.
+Error Code 60: No author name entered.
+Error Code 61: No article text entered.
+Error Code 62: A URL must be provided to use guest redirection.
+Error Code 63: No article name entered.							-admin/art/index.php
+Error Code 64: No article names contains [Article Name].
+Error Code 65: No author name entered.
+Error Code 66: No article made by author [Author Name].
+Error Code 67: No editor name entered.
+Error Code 68: No articles were edited by [Editor Name].
+Error Code 69: Invalid category ID.
+Error Code 70: Invalid category ID.
+Error Code 71: No articles in category [Category Name].
+Error Code 72: No articles text enetered.
+Error Code 73: No articles contain that text.
+Error Code 74: No articles.								-admin/art/listall.php
+Error Code 75: No articles to be checked.						-admin/art/member.php
+Error Code 76: Group name already exists.						-admin/groups/add.php
+Error Code 77: No group name enetered.
+Error Code 78: Invalid group ID.							-admin/groups/del.php
+Error Code 79: Cannot delete default Member group.
+Error Code 80: Cannot delete Root Administrator group.
+Error Code 81: You cannot delete an Administrative group.
+Error Code 82: Cannot delete your group.
+Error Code 83: Cannot delete default Member group.
+Error Code 84: Cannot delete Root Administrator group.
+Error Code 85: You cannot delete an Administrative group.
+Error Code 86: Cannot delete your group.
+Error Code 87: Group ID does not exist.							-admin/groups/edit.php
+Error Code 88: You cannot edit the Root Administrator group.
+Error Code 89: You cannot edit your own group.
+Error Code 90: You cannot edit an Administrator group.
+Error Code 91: No group name entered.
+Error Code 92: You cannot edit your own group.
+Error Code 93: You cannot delete a default homepage.					-admin/home/del.php
+Error Code 94: Invalid homepage ID.
+Error Code 95: Invalid homepage ID.
+Error Code 96: No name entered.								-admin/home/add.php
+Error Code 97: Invalid homepage ID.							-admin/home/edit.php
+Error Code 98: Invalid homepage ID.
+Error Code 99: No password entered.							-admin/members/add.php
+Error Code 100: No username entered.
+Error Code 101: No email entered.
+Error Code 102: Username in use.
+Error Code 103: You cannot add a Root Administrator.
+Error Code 104: You cannot add an Administrator.
+Error Code 105: Invalid member ID.							-admin/members/del.php
+Error Code 106: Invalid member ID.
+Error Code 107: You cannot delete Root Administrators.
+Error Code 108: You cannot delete Administrators.
+Error Code 109: No username entered.
+Error Code 110: No usernames contain [Username].
+Error Code 111: No email address entered.
+Error Code 112: No emails contain [Email].
+Error Code 113: Invalid group ID.
+Error Code 114: No users are in the group [Group Name].
+Error Code 115: You cannot edit Root Administrators.					-admin/members/edit.php
+Error Code 116: You cannot add Root Administrators.
+Error Code 117: You cannot edit Administrators.
+Error Code 118: You cannot add Administrators.
+Error Code 119: Invalid member ID.
+Error Code 120: You cannot edit Root Administrators.
+Error Code 121: You cannot edit Administrators.
+Error Code 122: No username entered.							-admin/members/index.php
+Error Code 123: No usernames contain [Username].
+Error Code 124: No email address entered.
+Error Code 125: No emails contain [Email].
+Error Code 126: Invalid group ID.
+Error Code 127: No users are in the group [Group Name].
+Error Code 128: No author entered.							-admin/skinedit/add.php
+Error Code 129: No skin name entered.
+Error Code 130: A skin with that name already exists.
+Error Code 131: No skin name entered.
+Error Code 132: A skin with that name already exists.
+Error Code 133: Cannot delete default administrative skin.				-admin/skinedit/del.php
+Error Code 134: Cannot delete default main site skin.
+Error Code 135: No author name entered.							-admin/skinedit/edit.php
+Error Code 136: No skin name entered.
+Error Code 137: Invalid skin ID.
+Error Code 138: Invalid skin ID.
+Error Code 139: Invalid skin ID.
+Error Code 140: Invalid skin ID.
+Error Code 141: No author name entered.							-admin/skinedit/madd.php
+Error Code 142: No skin name entered.
+Error Code 143: A skin with that name already exists.
+Error Code 144: No skin name entered.
+Error Code 145: A skin with that name already exists.
+Error Code 146: No author entered.							-admin/skinedit/medit.php
+Error Code 147: No skin name entered.
+Error Code 148: Invalid skin ID.
+Error Code 149: Invalid skin ID.
+Error Code 150: Invalid skin ID.
+Error Code 151: Invalid skin ID.
+
+~200s, 300s, 400s, 500s (Fatal & Non-Fatal SQL Errors)~
+~Suggested Action: Report to GiveMeHelp.net & Ignore~
+200-218											-admin/general.php
+219-231											-admin/index.php
+232-268											-admin/links.php
+269-270											-admin/login.php
+271-287											-admin/admins/edit.php
+288-296											-admin/admins/index.php
+297-300											-admin/art/add.php
+301-316											-admin/art/cat.php
+317-333											-admin/art/del.php
+334-338											-admin/art/edit.php
+339-350											-admin/art/index.php
+351-353											-admin/art/listall.php
+354-356											-admin/art/member.php
+357-365											-admin/groups/add.php
+366-374											-admin/groups/del.php
+375-389											-admin/groups/edit.php
+390-395											-admin/groups/index.php
+396-397											-admin/home/add.php
+398-401											-admin/home/del.php
+402-404											-admin/home/edit.php
+405-411											-admin/home/index.php
+412-435											-admin/members/add.php
+436-439											-admin/members/ban.php
+440-458											-admin/members/del.php
+459-499											-admin/members/edit.php
+500-510											-admin/members/index.php
+511-513											-admin/members/listall.php
+514-520											-admin/skinedit/add.php
+521-531											-admin/skinedit/del.php
+532-539											-admin/skinedit/edit.php
+540-544											-admin/skinedit/index.php
+545-551											-admin/skinedit/madd.php
+552-558											-admin/skinedit/medit.php
+
+~600s (Very Fatal SQL Errors)~
+~Suggested Action: Report to GiveMeHelp.net & Ignore~
+600-601											-admin/cookie.php
+602-603											-admin/gcheck.php
+604-605											-admin/mcheck.php
+606-608											-admin/menu.php
+609-610											-admin/admins/check.php
+611-612											-admin/art/check.php
+613-614											-admin/groups/check.php
+615-616											-admin/home/check.php
+617-618											-admin/members/check.php
+619-621											-admin/skin/content.php
+622-624											-admin/skin/footer.php
+625-628											-admin/skin/header.php
+629-630											-admin/skinedit/check.php
+
+~1000s (Fatal & Non-Fatal SQL Errors)~
+~Suggested Action: Report to GiveMeHelp.net & Ignore~
+1000											-article.php
+1001											-inbox.php
+1002-1007										-index.php
+1008-1010										-login.php
+1011											-members.php
+1012											-profile.php
+1013-1014										-register.php
+1015											-submit.php
+1016-1022										-functions/cookie.php
+1023											-functions/loggin.php
+1024-1027										-functions/menu.php
+1028-1040										-functions/art/search.php
+1041											-functions/art/view.php
+1042-1050										-functions/member/search.php
+1051-1053										-functions/member/view.php
+1054-1055										-functions/pm/inbox.php
+1056-1059										-functions/pm/pid.php
+1060-1061										-functions/pm/send.php
+1062-1063										-functions/pm/sent.php
+1064-1065										-functions/pm/submit.php
+1066											-functions/profile/edit.php
+1067											-functions/profile/submit.php
+1068-1069										-functions/submit/send.php
+1070-1071										-functions/submit/submit.php
